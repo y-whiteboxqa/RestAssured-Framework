@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredFramework">
+
+<listeners>
+  <listener class-name="com.restAssured.extentReportListener.ExtentReport"/>
+  </listeners>
+  
+  <test name="RestAssuredTest">
+    <classes>
+      <class name="com.restAssured.tests.PostAPITest"/>
+      <class name="com.restAssured.tests.PutAPITest"/>
+      <class name="com.restAssured.tests.DeleteAPITest"/>
+      <class name="com.restAssured.tests.GetAPITest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

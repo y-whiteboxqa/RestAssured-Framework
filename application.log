@@ -1,0 +1,277 @@
+2020-05-19 16:17:05,837 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2020-05-19 16:17:05,845 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2020-05-19 16:17:06,040 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-05-19 16:17:06,041 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-05-19 16:17:06,041 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-05-19 16:17:06,042 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-05-19 16:17:06,042 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2020-05-19 16:17:06,043 DEBUG [main] DefaultClientConnection:274 - Sending request: POST /api/users HTTP/1.1
+2020-05-19 16:17:06,043 DEBUG [main] wire:73 -  >> "POST /api/users HTTP/1.1[\r][\n]"
+2020-05-19 16:17:06,044 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2020-05-19 16:17:06,044 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-05-19 16:17:06,045 DEBUG [main] wire:73 -  >> "Content-Length: 34[\r][\n]"
+2020-05-19 16:17:06,045 DEBUG [main] wire:73 -  >> "Host: reqres.in[\r][\n]"
+2020-05-19 16:17:06,045 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-05-19 16:17:06,045 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.6)[\r][\n]"
+2020-05-19 16:17:06,046 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-05-19 16:17:06,047 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2020-05-19 16:17:06,047 DEBUG [main] headers:278 - >> POST /api/users HTTP/1.1
+2020-05-19 16:17:06,047 DEBUG [main] headers:281 - >> Accept: */*
+2020-05-19 16:17:06,047 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-05-19 16:17:06,048 DEBUG [main] headers:281 - >> Content-Length: 34
+2020-05-19 16:17:06,048 DEBUG [main] headers:281 - >> Host: reqres.in
+2020-05-19 16:17:06,048 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2020-05-19 16:17:06,048 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.6)
+2020-05-19 16:17:06,048 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2020-05-19 16:17:06,049 DEBUG [main] wire:87 -  >> "{"name":"morpheus","job":"leader"}"
+2020-05-19 16:17:06,486 DEBUG [main] wire:73 -  << "HTTP/1.1 201 Created[\r][\n]"
+2020-05-19 16:17:06,488 DEBUG [main] wire:73 -  << "Date: Tue, 19 May 2020 23:17:06 GMT[\r][\n]"
+2020-05-19 16:17:06,489 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-05-19 16:17:06,489 DEBUG [main] wire:73 -  << "Content-Length: 83[\r][\n]"
+2020-05-19 16:17:06,489 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-05-19 16:17:06,490 DEBUG [main] wire:73 -  << "Set-Cookie: __cfduid=d0b3a15b7432cbe0fb53313cf7c43e1d81589930226; expires=Thu, 18-Jun-20 23:17:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-05-19 16:17:06,490 DEBUG [main] wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2020-05-19 16:17:06,490 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-05-19 16:17:06,490 DEBUG [main] wire:73 -  << "Etag: W/"53-Ifz8+TaQSJAG6eXTj6PRZlcPYkE"[\r][\n]"
+2020-05-19 16:17:06,491 DEBUG [main] wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2020-05-19 16:17:06,491 DEBUG [main] wire:73 -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2020-05-19 16:17:06,491 DEBUG [main] wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-05-19 16:17:06,492 DEBUG [main] wire:73 -  << "Server: cloudflare[\r][\n]"
+2020-05-19 16:17:06,492 DEBUG [main] wire:73 -  << "CF-RAY: 59618788e9bae047-SEA[\r][\n]"
+2020-05-19 16:17:06,492 DEBUG [main] wire:73 -  << "cf-request-id: 02d0d309900000e0478a186200000001[\r][\n]"
+2020-05-19 16:17:06,493 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-05-19 16:17:06,494 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 201 Created
+2020-05-19 16:17:06,494 DEBUG [main] headers:262 - << HTTP/1.1 201 Created
+2020-05-19 16:17:06,495 DEBUG [main] headers:265 - << Date: Tue, 19 May 2020 23:17:06 GMT
+2020-05-19 16:17:06,495 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8
+2020-05-19 16:17:06,495 DEBUG [main] headers:265 - << Content-Length: 83
+2020-05-19 16:17:06,495 DEBUG [main] headers:265 - << Connection: keep-alive
+2020-05-19 16:17:06,496 DEBUG [main] headers:265 - << Set-Cookie: __cfduid=d0b3a15b7432cbe0fb53313cf7c43e1d81589930226; expires=Thu, 18-Jun-20 23:17:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-05-19 16:17:06,496 DEBUG [main] headers:265 - << X-Powered-By: Express
+2020-05-19 16:17:06,496 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2020-05-19 16:17:06,496 DEBUG [main] headers:265 - << Etag: W/"53-Ifz8+TaQSJAG6eXTj6PRZlcPYkE"
+2020-05-19 16:17:06,497 DEBUG [main] headers:265 - << Via: 1.1 vegur
+2020-05-19 16:17:06,497 DEBUG [main] headers:265 - << CF-Cache-Status: DYNAMIC
+2020-05-19 16:17:06,497 DEBUG [main] headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-05-19 16:17:06,497 DEBUG [main] headers:265 - << Server: cloudflare
+2020-05-19 16:17:06,498 DEBUG [main] headers:265 - << CF-RAY: 59618788e9bae047-SEA
+2020-05-19 16:17:06,498 DEBUG [main] headers:265 - << cf-request-id: 02d0d309900000e0478a186200000001
+2020-05-19 16:17:06,501 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-05-19 16:17:06,514 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-05-19 16:17:06,515 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-05-19 16:17:06,643 DEBUG [main] wire:87 -  << "{"name":"morpheus","job":"leader","id":"95","createdAt":"2020-05-19T23:17:06.320Z"}"
+2020-05-19 16:17:06,644 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@58f4b31a
+2020-05-19 16:17:06,644 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-05-19 16:17:06,998 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2020-05-19 16:17:06,998 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2020-05-19 16:17:07,090 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-05-19 16:17:07,090 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-05-19 16:17:07,090 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-05-19 16:17:07,091 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-05-19 16:17:07,091 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2020-05-19 16:17:07,091 DEBUG [main] DefaultClientConnection:274 - Sending request: PUT /api/users/2 HTTP/1.1
+2020-05-19 16:17:07,091 DEBUG [main] wire:73 -  >> "PUT /api/users/2 HTTP/1.1[\r][\n]"
+2020-05-19 16:17:07,092 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2020-05-19 16:17:07,092 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-05-19 16:17:07,092 DEBUG [main] wire:73 -  >> "Content-Length: 41[\r][\n]"
+2020-05-19 16:17:07,092 DEBUG [main] wire:73 -  >> "Host: reqres.in[\r][\n]"
+2020-05-19 16:17:07,092 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-05-19 16:17:07,093 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.6)[\r][\n]"
+2020-05-19 16:17:07,093 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-05-19 16:17:07,093 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2020-05-19 16:17:07,093 DEBUG [main] headers:278 - >> PUT /api/users/2 HTTP/1.1
+2020-05-19 16:17:07,094 DEBUG [main] headers:281 - >> Accept: */*
+2020-05-19 16:17:07,094 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-05-19 16:17:07,094 DEBUG [main] headers:281 - >> Content-Length: 41
+2020-05-19 16:17:07,094 DEBUG [main] headers:281 - >> Host: reqres.in
+2020-05-19 16:17:07,095 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2020-05-19 16:17:07,095 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.6)
+2020-05-19 16:17:07,095 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2020-05-19 16:17:07,095 DEBUG [main] wire:87 -  >> "{"name":"morpheus","job":"zion resident"}"
+2020-05-19 16:17:07,517 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-05-19 16:17:07,517 DEBUG [main] wire:73 -  << "Date: Tue, 19 May 2020 23:17:07 GMT[\r][\n]"
+2020-05-19 16:17:07,518 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-05-19 16:17:07,518 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-05-19 16:17:07,519 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-05-19 16:17:07,519 DEBUG [main] wire:73 -  << "Set-Cookie: __cfduid=d0cc497120cb78f36e848064c50ceff801589930227; expires=Thu, 18-Jun-20 23:17:07 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-05-19 16:17:07,520 DEBUG [main] wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2020-05-19 16:17:07,520 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-05-19 16:17:07,521 DEBUG [main] wire:73 -  << "Etag: W/"50-OIIxKrLiZR2YDoAoKFRVZrNcies"[\r][\n]"
+2020-05-19 16:17:07,521 DEBUG [main] wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2020-05-19 16:17:07,522 DEBUG [main] wire:73 -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2020-05-19 16:17:07,522 DEBUG [main] wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-05-19 16:17:07,522 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-05-19 16:17:07,523 DEBUG [main] wire:73 -  << "Server: cloudflare[\r][\n]"
+2020-05-19 16:17:07,523 DEBUG [main] wire:73 -  << "CF-RAY: 5961878f7c92e372-SEA[\r][\n]"
+2020-05-19 16:17:07,523 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-05-19 16:17:07,524 DEBUG [main] wire:73 -  << "cf-request-id: 02d0d30da90000e372b926a200000001[\r][\n]"
+2020-05-19 16:17:07,524 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-05-19 16:17:07,525 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-05-19 16:17:07,525 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2020-05-19 16:17:07,525 DEBUG [main] headers:265 - << Date: Tue, 19 May 2020 23:17:07 GMT
+2020-05-19 16:17:07,526 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8
+2020-05-19 16:17:07,526 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2020-05-19 16:17:07,526 DEBUG [main] headers:265 - << Connection: keep-alive
+2020-05-19 16:17:07,527 DEBUG [main] headers:265 - << Set-Cookie: __cfduid=d0cc497120cb78f36e848064c50ceff801589930227; expires=Thu, 18-Jun-20 23:17:07 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-05-19 16:17:07,527 DEBUG [main] headers:265 - << X-Powered-By: Express
+2020-05-19 16:17:07,528 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2020-05-19 16:17:07,528 DEBUG [main] headers:265 - << Etag: W/"50-OIIxKrLiZR2YDoAoKFRVZrNcies"
+2020-05-19 16:17:07,528 DEBUG [main] headers:265 - << Via: 1.1 vegur
+2020-05-19 16:17:07,529 DEBUG [main] headers:265 - << CF-Cache-Status: DYNAMIC
+2020-05-19 16:17:07,529 DEBUG [main] headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-05-19 16:17:07,529 DEBUG [main] headers:265 - << Vary: Accept-Encoding
+2020-05-19 16:17:07,529 DEBUG [main] headers:265 - << Server: cloudflare
+2020-05-19 16:17:07,529 DEBUG [main] headers:265 - << CF-RAY: 5961878f7c92e372-SEA
+2020-05-19 16:17:07,530 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2020-05-19 16:17:07,530 DEBUG [main] headers:265 - << cf-request-id: 02d0d30da90000e372b926a200000001
+2020-05-19 16:17:07,532 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-05-19 16:17:07,533 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-05-19 16:17:07,534 DEBUG [main] wire:73 -  << "69[\r][\n]"
+2020-05-19 16:17:07,534 DEBUG [main] wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x4][0xc1]A[\n]"
+2020-05-19 16:17:07,535 DEBUG [main] wire:87 -  << "[0x80] [0x10][0x5][0xd0][0xab][0xc4]_g[0x8c]JI[0xb3][0xeb][0xe][0xad][0xda][0x15][0xe]T[0xa0][0x86][0xda][0xa6][0xe8][0xee][0xbd][0xf7]"[0xae]A[0xc0][0x8])_[0xbb][0xdc][0x5]-[0xce][0xb4][0x81][0xf1][0x1c])6Y[0xca][0xe1]%V[0xb4][0xb8]/[0xbf]V[0xf1]S[0x5][0xc3][0x90]!E[0xbd][0xd2][0xe3]l,k[0xc7][0xe4]:;[0xe8][0x5][0xdf][0xf][0x0][0x0][0xff][0xff][0x3][0x0]R~[0xf1][0x1b]P[0x0][0x0][0x0]"
+2020-05-19 16:17:07,535 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-05-19 16:17:07,536 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2020-05-19 16:17:07,536 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-05-19 16:17:07,536 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-05-19 16:17:07,540 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7f5fcfe9
+2020-05-19 16:17:07,540 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-05-19 16:17:07,562 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2020-05-19 16:17:07,562 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2020-05-19 16:17:07,648 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-05-19 16:17:07,648 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-05-19 16:17:07,649 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-05-19 16:17:07,649 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-05-19 16:17:07,649 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2020-05-19 16:17:07,649 DEBUG [main] DefaultClientConnection:274 - Sending request: DELETE /api/users/2 HTTP/1.1
+2020-05-19 16:17:07,649 DEBUG [main] wire:73 -  >> "DELETE /api/users/2 HTTP/1.1[\r][\n]"
+2020-05-19 16:17:07,650 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2020-05-19 16:17:07,650 DEBUG [main] wire:73 -  >> "Host: reqres.in[\r][\n]"
+2020-05-19 16:17:07,650 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-05-19 16:17:07,650 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.6)[\r][\n]"
+2020-05-19 16:17:07,651 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-05-19 16:17:07,651 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2020-05-19 16:17:07,651 DEBUG [main] headers:278 - >> DELETE /api/users/2 HTTP/1.1
+2020-05-19 16:17:07,651 DEBUG [main] headers:281 - >> Accept: */*
+2020-05-19 16:17:07,652 DEBUG [main] headers:281 - >> Host: reqres.in
+2020-05-19 16:17:07,652 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2020-05-19 16:17:07,652 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.6)
+2020-05-19 16:17:07,653 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2020-05-19 16:17:08,124 DEBUG [main] wire:73 -  << "HTTP/1.1 204 No Content[\r][\n]"
+2020-05-19 16:17:08,125 DEBUG [main] wire:73 -  << "Date: Tue, 19 May 2020 23:17:07 GMT[\r][\n]"
+2020-05-19 16:17:08,126 DEBUG [main] wire:73 -  << "Content-Length: 0[\r][\n]"
+2020-05-19 16:17:08,126 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-05-19 16:17:08,127 DEBUG [main] wire:73 -  << "Set-Cookie: __cfduid=d88bf8754cddfefbf93ea70782a1a15681589930227; expires=Thu, 18-Jun-20 23:17:07 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-05-19 16:17:08,127 DEBUG [main] wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2020-05-19 16:17:08,127 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-05-19 16:17:08,128 DEBUG [main] wire:73 -  << "Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"
+2020-05-19 16:17:08,128 DEBUG [main] wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2020-05-19 16:17:08,129 DEBUG [main] wire:73 -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2020-05-19 16:17:08,129 DEBUG [main] wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-05-19 16:17:08,129 DEBUG [main] wire:73 -  << "Server: cloudflare[\r][\n]"
+2020-05-19 16:17:08,130 DEBUG [main] wire:73 -  << "CF-RAY: 59618792fca3e37e-SEA[\r][\n]"
+2020-05-19 16:17:08,130 DEBUG [main] wire:73 -  << "cf-request-id: 02d0d30fd70000e37e101e5200000001[\r][\n]"
+2020-05-19 16:17:08,130 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-05-19 16:17:08,131 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 204 No Content
+2020-05-19 16:17:08,131 DEBUG [main] headers:262 - << HTTP/1.1 204 No Content
+2020-05-19 16:17:08,131 DEBUG [main] headers:265 - << Date: Tue, 19 May 2020 23:17:07 GMT
+2020-05-19 16:17:08,132 DEBUG [main] headers:265 - << Content-Length: 0
+2020-05-19 16:17:08,132 DEBUG [main] headers:265 - << Connection: keep-alive
+2020-05-19 16:17:08,132 DEBUG [main] headers:265 - << Set-Cookie: __cfduid=d88bf8754cddfefbf93ea70782a1a15681589930227; expires=Thu, 18-Jun-20 23:17:07 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-05-19 16:17:08,133 DEBUG [main] headers:265 - << X-Powered-By: Express
+2020-05-19 16:17:08,133 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2020-05-19 16:17:08,133 DEBUG [main] headers:265 - << Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+2020-05-19 16:17:08,133 DEBUG [main] headers:265 - << Via: 1.1 vegur
+2020-05-19 16:17:08,134 DEBUG [main] headers:265 - << CF-Cache-Status: DYNAMIC
+2020-05-19 16:17:08,134 DEBUG [main] headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-05-19 16:17:08,134 DEBUG [main] headers:265 - << Server: cloudflare
+2020-05-19 16:17:08,134 DEBUG [main] headers:265 - << CF-RAY: 59618792fca3e37e-SEA
+2020-05-19 16:17:08,135 DEBUG [main] headers:265 - << cf-request-id: 02d0d30fd70000e37e101e5200000001
+2020-05-19 16:17:08,135 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-05-19 16:17:08,135 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@be164d8
+2020-05-19 16:17:08,136 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-05-19 16:17:08,161 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://reqres.in:443
+2020-05-19 16:17:08,161 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to reqres.in:443
+2020-05-19 16:17:08,246 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-05-19 16:17:08,246 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-05-19 16:17:08,246 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-05-19 16:17:08,246 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-05-19 16:17:08,247 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2020-05-19 16:17:08,247 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/users?page=2 HTTP/1.1
+2020-05-19 16:17:08,247 DEBUG [main] wire:73 -  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2020-05-19 16:17:08,247 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2020-05-19 16:17:08,247 DEBUG [main] wire:73 -  >> "Host: reqres.in[\r][\n]"
+2020-05-19 16:17:08,248 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-05-19 16:17:08,248 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.6)[\r][\n]"
+2020-05-19 16:17:08,248 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-05-19 16:17:08,248 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2020-05-19 16:17:08,248 DEBUG [main] headers:278 - >> GET /api/users?page=2 HTTP/1.1
+2020-05-19 16:17:08,248 DEBUG [main] headers:281 - >> Accept: */*
+2020-05-19 16:17:08,248 DEBUG [main] headers:281 - >> Host: reqres.in
+2020-05-19 16:17:08,249 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2020-05-19 16:17:08,249 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.6)
+2020-05-19 16:17:08,249 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2020-05-19 16:17:08,295 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-05-19 16:17:08,295 DEBUG [main] wire:73 -  << "Date: Tue, 19 May 2020 23:17:08 GMT[\r][\n]"
+2020-05-19 16:17:08,295 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-05-19 16:17:08,295 DEBUG [main] wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-05-19 16:17:08,296 DEBUG [main] wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-05-19 16:17:08,296 DEBUG [main] wire:73 -  << "Set-Cookie: __cfduid=d00d32a47d10a03a52ecb026f3a7a7fae1589930228; expires=Thu, 18-Jun-20 23:17:08 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-05-19 16:17:08,296 DEBUG [main] wire:73 -  << "X-Powered-By: Express[\r][\n]"
+2020-05-19 16:17:08,296 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-05-19 16:17:08,296 DEBUG [main] wire:73 -  << "Etag: W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"[\r][\n]"
+2020-05-19 16:17:08,296 DEBUG [main] wire:73 -  << "Via: 1.1 vegur[\r][\n]"
+2020-05-19 16:17:08,297 DEBUG [main] wire:73 -  << "Cache-Control: max-age=14400[\r][\n]"
+2020-05-19 16:17:08,297 DEBUG [main] wire:73 -  << "CF-Cache-Status: HIT[\r][\n]"
+2020-05-19 16:17:08,297 DEBUG [main] wire:73 -  << "Age: 5833[\r][\n]"
+2020-05-19 16:17:08,297 DEBUG [main] wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-05-19 16:17:08,298 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-05-19 16:17:08,298 DEBUG [main] wire:73 -  << "Server: cloudflare[\r][\n]"
+2020-05-19 16:17:08,298 DEBUG [main] wire:73 -  << "CF-RAY: 59618796a95ce16a-SEA[\r][\n]"
+2020-05-19 16:17:08,298 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-05-19 16:17:08,298 DEBUG [main] wire:73 -  << "cf-request-id: 02d0d312290000e16a7eac1200000001[\r][\n]"
+2020-05-19 16:17:08,299 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-05-19 16:17:08,299 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-05-19 16:17:08,299 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2020-05-19 16:17:08,299 DEBUG [main] headers:265 - << Date: Tue, 19 May 2020 23:17:08 GMT
+2020-05-19 16:17:08,300 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8
+2020-05-19 16:17:08,300 DEBUG [main] headers:265 - << Transfer-Encoding: chunked
+2020-05-19 16:17:08,300 DEBUG [main] headers:265 - << Connection: keep-alive
+2020-05-19 16:17:08,300 DEBUG [main] headers:265 - << Set-Cookie: __cfduid=d00d32a47d10a03a52ecb026f3a7a7fae1589930228; expires=Thu, 18-Jun-20 23:17:08 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-05-19 16:17:08,301 DEBUG [main] headers:265 - << X-Powered-By: Express
+2020-05-19 16:17:08,301 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2020-05-19 16:17:08,301 DEBUG [main] headers:265 - << Etag: W/"4dd-IPv5LdOOb6s5S9E3i59wBCJ1k/0"
+2020-05-19 16:17:08,302 DEBUG [main] headers:265 - << Via: 1.1 vegur
+2020-05-19 16:17:08,302 DEBUG [main] headers:265 - << Cache-Control: max-age=14400
+2020-05-19 16:17:08,302 DEBUG [main] headers:265 - << CF-Cache-Status: HIT
+2020-05-19 16:17:08,302 DEBUG [main] headers:265 - << Age: 5833
+2020-05-19 16:17:08,303 DEBUG [main] headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-05-19 16:17:08,303 DEBUG [main] headers:265 - << Vary: Accept-Encoding
+2020-05-19 16:17:08,303 DEBUG [main] headers:265 - << Server: cloudflare
+2020-05-19 16:17:08,303 DEBUG [main] headers:265 - << CF-RAY: 59618796a95ce16a-SEA
+2020-05-19 16:17:08,303 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2020-05-19 16:17:08,304 DEBUG [main] headers:265 - << cf-request-id: 02d0d312290000e16a7eac1200000001
+2020-05-19 16:17:08,304 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-05-19 16:17:08,304 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-05-19 16:17:08,305 DEBUG [main] wire:73 -  << "1da[\r][\n]"
+2020-05-19 16:17:08,305 DEBUG [main] wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5][0xd3][0xc1][0x8e][0xd3]0[0x10][0x6][0xe0]W[0xb1][0xe6]l9[0xb4]+[0xa0][0xe4][0x4][0xac][0x16]8,[0x17]@[0xe2][0x80][0xd0]j[0x1a]O[0x12]S[0xc7][0xe][0xe3]IB[0xa9][0xfa][0xee](IQ[0xa4]V[0xdd]K/Vl[0xff][0xbf][0xfc][0x1d]2[0x7]h[0xb1]"[0xc8][0xd7][0x1a]Z[0xe2][0xa7]y[0xf3]J[0x83]DA[0xf][0xf9]j}[0xfa][0x9c]n[0xd2][0x94][0xb3]([0x8][0xf9][0x8f][0x3]8[0xb][0xf9]k[\r][0xd4][0xa0][0xf3][0x90]C[0xe3][0x8a][0x1a][0xc9][0x1b][0x8f]C[0x8a][0xe1]-[0xd3]o[0xa6]d\[0x0][\r][0xa5][0xe3]$O[0x1][0x1b][0x82][0x1c]>[0xcf]9[0xd0][0xe0]q9}[0x9c]Z[0xa0][0x1]{[0x14]d[0xc8][0xa1][0x16]iS[0x9e]e[0xe9][0xce]`[0x83]c[0xc0]![0x99]"6Y[0xe7]J,(e[0xf3]*[0x83][0x13]![0xce][0xca][0xe8]=[0x89][0xec][0xf6][0x9e][0xb2][0xd5]zc~[0xb5][0x15][0x1c][0xf5][0xac][0xdc],J[0xef][0x82]M[0xb8]7%q[0xd5]=[0xeb]|[0x9c][0x93]g[0xce][0xf][0xa7][0xde][\r]Rd[0xc4][0xbb][0xd5][0xe6][0xe5][0x5][0xf3][0xcd][0xc2][0x94][0xb8]u[0x98]L[0xd9][0x85][0x1d]]'~[0x9b]R[0xe7][0xc2][0xb1]s[0x3][0xaf]w=[0xed]Z[0xee][0xf9][0xc2][0xb7]z[0xb1][0x0][0xb7]{[0x8e][0xc1][0x94][0x8e][0xbc]M[0xd7][0x81][0xef][0xc7][0xd4][0xb9]o[0xea][0xdc][0x0][0xe4].[0xa5]H[0xb6][0xbb][0xf4][0xad][0x16]_E[0x91]+2d[0x7][0xe4][0xe7][0x84][0x1f][0xa7][0xdc][0x19][0xf1]an[0xdd]`l[0xb8][0x89][0x8e][0xe9][0xf2]W[0x1c]'[0xea][0xbf][0x91][0xb1][0xa8][0xc9][0x9b]:[0xe][0xe4][0xfd]u[0xe2][0x97])vF[0xfc]4[0x95]n[0x10][0xd6][0xb4]%[0x16][0x87][0xbe]!gqq[0xfe][0xd4][0x80][0x16][0xf2][0x3][0x14][0xb1]i1[0xec]![0x87][0xaf][0x82][0xd2][0xa5][0xfb]hI}'[0xda][0xf9]q&:[0xf6][0xa7]7[0xc7]'[0xa7]@[0x11]-[0x99][0xc8]U[0x6][0x1a][0x84][0xfe][0x8][0xe4][0xf0]N[\r]SA[0x5][0x1a][0xd2]8[0x9e][0xc4][0xaa][0x8c]E[0x97]\[0xa8]T[0xc]*[0xc5]R[0x6]dR[0x96]z[0xf2][0xb1]m([0x88]V.[0x94][0x8c]I[0xb8]+[0xa4]c[0xd2]JjR[0x89][0xb8]'[0xd6][0xaa]%.#7[0x18][\n]"
+2020-05-19 16:17:08,305 DEBUG [main] wire:73 -  << "[0xd2][\n]"
+2020-05-19 16:17:08,305 DEBUG [main] wire:87 -  << "[0x83][0x9d]/[0x5][0x8b][0x9d][0xa2]`U,[0x95][0xd4].T[0xc9][0xc0][0xf1][0xf8][0xf][0xfa][0x8b]5[0x1a][0xdd][0x4][0x0][0x0]"
+2020-05-19 16:17:08,305 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-05-19 16:17:08,306 DEBUG [main] wire:73 -  << "0[\r][\n]"
+2020-05-19 16:17:08,306 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-05-19 16:17:08,306 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-05-19 16:17:08,310 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@501957bf
+2020-05-19 16:17:08,311 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-05-19 16:17:13,498 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-05-19 16:17:13,499 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-05-19 16:17:13,500 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-05-19 16:17:13,501 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-05-19 16:17:13,501 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/yamuna/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-05-19 16:17:13,643 DEBUG [Finalizer] DefaultClientConnection:180 - Connection 0.0.0.0:53320<->104.27.135.11:443 closed
+2020-05-19 16:17:13,646 DEBUG [Finalizer] DefaultClientConnection:180 - Connection 0.0.0.0:53322<->104.27.135.11:443 closed
+2020-05-19 16:17:13,646 DEBUG [Finalizer] DefaultClientConnection:180 - Connection 0.0.0.0:53321<->104.27.135.11:443 closed
+2020-05-19 16:17:13,693 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-05-19 16:17:13,693 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-05-19 16:17:13,693 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-05-19 16:17:13,694 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-05-19 16:17:13,694 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/yamuna/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
